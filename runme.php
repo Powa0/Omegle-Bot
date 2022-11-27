@@ -19,12 +19,12 @@ while (1)
 	if ($bot->connected && $bot->newConn) // Stranger is on the other end and it's a new connection. Useful if you want to send the initial message.
 	{
 		$bot->newConn = false;
-		$bot->s_msg("Hello! Remember, pornography is contraband and illegal in the US, so DO NOT be tempted by the Omegle bots. Thank you"); //First message to send to the new connection
+		$bot->s_msg("join bitch https://discord.gg/8dfh8fQeg5"); //First message to send to the new connection
 	}
 	if ($bot->newMessage) // We got a new message!
 	{
 		$bot->newMessage=false; // We're handling it.  It's no longer new to us.
-		$bot->s_msg("Ok, sounds good."); // Sending back the contents of the last message.
+		$bot->s_msg("NOW https://discord.gg/8dfh8fQeg5"); // Sending back the contents of the last message.
 	}
 
 }
